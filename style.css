@@ -1,0 +1,245 @@
+.titulo{
+    color: rgb(22, 19, 19);
+    text-align: center;
+    font-size: 4vw;
+}
+.omega {
+    font-size: 100px;
+    margin-left: 550px;
+
+}
+.containner {
+    max-width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+.hh1 {
+    text-align: center;
+    color: #333;
+    font-size: 5vw;
+}
+.nav {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.about-text {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+.about-text div {
+    margin-bottom: 15px;
+}
+
+
+.nav a {
+    text-decoration: underline;
+    color: #696767;
+    margin: 0 15px;
+    font-size: 3vw;
+    transition: color 0.3s;
+}
+.nav a:hover {
+    color: #007BFF;
+}
+.imgprincipal{
+    max-width: 75%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+
+/* Container for images and text */
+.jjj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 2000px;
+    padding: 20px;
+}
+
+/* Profile Image Styling */
+.profile-image {
+    width: auto;
+    max-width: 500px;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0px;
+}
+
+/* Bio Container */
+.kkk {
+    flex: 1;
+    min-width: 400px;
+    max-width: 850px;
+    margin: 0px;
+}
+
+.bio-container {
+    border: 2px dotted black;
+    padding: 5px;
+    background-color: #f0f0f0;
+    font-size: 18px;
+}
+
+.lll {
+    margin-top: 25px;
+}
+
+
+.projectbody {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.ppr {
+    margin: 20px 0;
+    color: #333;
+    text-align: center; /* Centers the text */
+    font-size: 2em;
+}
+
+/* Flexbox container for side-by-side layout */
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  /* Adds space between projects */
+    flex-wrap: wrap;  /* Ensures responsiveness */
+    padding: 20px;
+}
+
+/* Style for each project */
+.project {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 45%;  /* Each project takes up 45% of the screen */
+    text-align: left;
+}
+
+/* Make sure images fit properly */
+.project img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Aligns titles on the same row */
+    align-items: center; /* Centers them vertically */
+    width: 50%;
+    padding: 20px;
+}
+
+.left-title {
+    font-size: 1.5rem;
+    color: #0c10e0;
+    text-underline-position: below;
+}
+
+
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project {
+        width: 90%;  /* Full width on small screens */
+    }
+}
+
+
+.projecct-container {
+    display: flex; /* Aligns items in a row */
+    justify-content: space-between; /* Distributes items evenly */
+    gap: 20px; /* Adds spacing between items */
+    flex-wrap: wrap; /* Ensures they wrap if the screen is small */
+    width: 100%; /* Makes sure they span full width */
+    padding: 20px; /* Adds some padding around */
+    box-sizing: border-box; /* Prevents padding from breaking the layout */
+}
+
+.projecct {
+    flex: 1; /* Makes each project take up equal space */
+    text-align: center;
+    max-width: 33%; /* Ensures 3 items fit per row */
+}
+
+.projecct img {
+    width: 100%; /* Makes images fill their container */
+    height: 1000px; /* Controls height for consistency */
+    object-fit: cover; /* Ensures images don’t stretch */
+    border-radius: 10px; /* Optional: smooth edges */
+}
+
+.projecct p {
+    font-size: 1.2rem; /* Makes text larger */
+    padding: 10px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .jjj {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .kkk {
+        max-width: 90%;
+    }
+    .profile-image{
+        width: 90%; /* Reduce image size on smaller screens */
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .hh1 {
+        font-size: 6vw;
+    }
+
+    .nav a {
+        font-size: 4vw;
+    }
+    
+    .imgprincipal {
+        width: 90%; /* Reduce image size on smaller screens */
+        height: auto;
+    }
+}
